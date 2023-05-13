@@ -1,0 +1,85 @@
+.disp-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 50px; */
+    padding: 50px 100px  100px 100px;
+}
+.pdbtn{
+    margin:20px 0 0px 0;
+  /* color: black; */
+  color: white;
+background-color: #119dd4;
+  font-weight: 100;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  margin-right: 22px;
+  /* margin-bottom: 200px; */
+  /* font-weight: bold; */
+  border: 1px solid lightskyblue;
+}
+.pdbtn:hover{
+    background: transparent;
+transition: 200ms ease-in-out;
+border: 1px solid crimson;
+color: crimson;
+
+    /* background-color: #0b4791; */
+
+}
+.pdbtnd{
+    margin:20px 0 0px 0;
+    background: transparent;
+    color: crimson;
+    /* background-color: crimson; */
+    border: 1px solid crimson;
+    font-weight: 100;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  margin-right: 22px;
+}
+.pdbtnd:hover{
+    transition: 200ms ease-in-out;
+    color: white;
+    background-color: #119dd4;
+
+    border: 1px solid lightskyblue;
+}
+
+.pdimg{
+    object-fit: contain;
+}
+.pdh4{
+    color: #0b4791;
+    font-weight: 400;
+    font-size: large;
+    text-transform: uppercase;
+margin: 10px 0 10px 0;
+
+}
+.pdh1{
+    color: #0b4791;
+    font-weight: 400;
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+.pdp{
+/* font-weight: 400; */
+font-size: large;
+margin: 20px 0 20px 0;
+}
+.pdh3{
+font-size: x-large;
+margin: 10px 0 20px 0;
+
+}
+.pdcbtn{
+    font-size: xx-large;
+    display: flex;
+    gap: 2rem;
+}
+.pdtp{
+font-size: large;
+
+}

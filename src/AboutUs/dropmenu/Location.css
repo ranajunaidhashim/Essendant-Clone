@@ -1,0 +1,96 @@
+.loc {
+  margin: 50px 70px 50px 70px;
+}
+.loc h2 {
+  font-weight: 400;
+  color: #0b4791;
+  margin: 100px 30px 50px 30px;
+}
+.dis4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 30px 0 30px 0;
+}
+.dis4 .dflex {
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  padding: 30px;
+
+  background-color: rgb(233, 232, 232);
+}
+.dis4 .dflex img {
+  /* display: flex; */
+  /* object-fit: cover; */
+  /* font-size: 100px; */
+  height: 30px;
+}
+.dis4 .dflex h3 {
+  text-decoration: none;
+  text-align: start;
+  font-size: 17px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/* ########___________ */
+.loc .AtextL h2 {
+  font-size: 22px;
+  margin: 30px 0 30px 0;
+}
+.dis3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.dis3 .leaders {
+  padding: 20px;
+  margin-bottom: 70px;
+}
+.dis3 .leaders img {
+  /* height: 250px; */
+  height: 90%;
+  width: 100%;
+}
+
+.dis3 .leaders .nm {
+  margin-top: 10px;
+  color: #0b4791;
+}
+.dis3 .leaders h4 {
+  color: #119dd4;
+  margin-top: 5px;
+  text-align: center;
+  line-height: 1.5;
+}
+/* #------------- */
+.history{
+margin: 50px;
+margin-left: 100px;
+}
+
+.history >h1{
+font-size: 50px;
+font-weight: bold;
+color: #119dd4;
+margin-bottom: 70px;
+
+}
+.history >span{
+font-size: 25px;
+color: solid black;
+/* margin-top: 200px; */
+top: 50px;
+}
+.himg{
+  /* width: fit-content; */
+  /* height: 300px; */
+  /* height:fit-content; */
+  /* margin: 100px; */
+  margin-top: 50px;
+  margin-left: 30px;
+  /* padding: 100px; */
+  /* font-size: 100px; */
+  height: 50%;
+}

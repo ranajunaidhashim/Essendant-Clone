@@ -1,0 +1,159 @@
+.Ctextl{
+    color: #0f3460;
+    /* font-weight: bolder; */
+    font-size: 17px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Cp{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.Cp h4{
+    opacity: 0.8;
+    text-align: start;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.Cinput{
+    margin-left: 12%;
+    margin-right: 12%;   
+}
+.Cinput h5{
+    margin-top: 50px;
+    opacity: 0.6;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 400; 
+}
+.Cinput .Cin{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 0;
+    height: 50px;
+}
+.Cinput .Cin:hover{
+border-color: #119dd4;
+}
+.Cinput .Cradio{
+    margin-top: 20px;
+    border-radius: 0;
+}
+.Cinput .CR{
+    margin-left: 5px;
+    opacity: 0.6;
+    font-size: 15px;
+    font-weight: 400; 
+}
+.Cp .h4{
+    margin-top: 50px;
+}
+.Cbtn button{
+background-color: rgba(177, 2, 2, 0.87);
+padding: 20px;
+color: #fff;
+border: none;
+width: 300px;
+font-size: 17px;
+font-weight: 600;
+}
+
+
+.Cbtn{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+.Ch5 h5{
+    margin-top: 50px;
+    opacity: 0.6;
+    text-align: start;
+    font-size: 15px;
+    font-weight: 400; 
+    margin: 50px 90px 100px 90px;
+}
+.Cline{
+    color: #0f3460;
+    height: 14px;
+    background-color: #0f3460;
+    /* width: 400px; */
+    text-align: center;
+    border-bottom: 3px solid #119dd4;
+    margin: 50px 50px 10px 50px;
+}
+.Csection{
+  
+    background-image: linear-gradient(rgba(105, 103, 103, 0.075), #fff);
+    padding: 30px;
+}
+.Ctextl h3{
+    color: black;
+    font-weight: 400;
+opacity: 0.8;
+font-size: 18px;
+margin-top: 10px;
+}
+.Csection .sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* align-content: center;
+    align-items: center; */
+    text-align: center;
+    padding: 30px;
+}
+.Csection .sec img{ 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* padding: 100px; */
+    /* width: 100%; */
+}
+.Csection .sec .sec1 img{ 
+    height: 90px;
+
+}
+.Csection .sec .sec2 img{
+height: 40px;
+}
+.Csection .sec .sec4 img{
+    height: 70px;
+}
+.Csection .sec a{
+color: #119dd4;
+}
+.Csection .sec a:hover{
+text-decoration: underline;
+}
+.Csection .sec h4{
+    margin: 20px 0 20px 0;
+    color: #0f3460;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Csection .sec h3{
+font-size: 17px;
+margin-top: 10px;
+font-weight: 400;
+}
+.Csection .sec .sec1 {
+    border-right: 1px solid rgba(0, 0, 0, 0.37);
+    padding: 10px;
+}
+.Csection .sec .sec2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    padding: 10px;
+
+}
+.Csection .sec .sec3 {
+    border-top: 1px solid rgba(0, 0, 0, 0.37);
+    padding: 10px;
+
+}
+.Csection .sec .sec4 {
+    border-left: 1px solid rgba(0, 0, 0, 0.37);
+    padding: 10px;
+
+}

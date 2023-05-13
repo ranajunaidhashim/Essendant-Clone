@@ -1,0 +1,105 @@
+.Probuttons {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+
+.Probuttons .Prbtn {
+  margin: 10px;
+  background: transparent;
+  color: black;
+  font-weight: 100;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  /* font-weight: bold; */
+  border: 1px solid lightskyblue;
+}
+
+.Probuttons .Prbtn:hover {
+  background: #119dd4;
+  border-color: #119dd4;
+  color: #fff;
+}
+
+.prorow {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+  color: #0b4791;
+  font-size: larger;
+}
+/* ____________________ card */
+.pmap {
+  display: flex;
+  flex: 4;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.cards {
+  margin: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  border-radius: 5px;
+
+  /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+  /* display: flex;
+flex: 2;
+flex-direction: row; */
+  width: fit-content;
+  height: 430px;
+}
+.cardimg {
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+}
+.cardbody {
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.cardbody > span {
+  text-align: center;
+  margin-bottom: 20px;
+
+  /* margin: 10px; */
+}
+.cardbody > h5 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Prbtn {
+  /* margin:50px 0 50px 0; */
+  background: transparent;
+  color: black;
+  font-weight: 100;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 11px;
+  /* margin-bottom: 200px; */
+align-items: center;
+
+  /* font-weight: bold; */
+  border: 1px solid lightskyblue;
+}
+.cardbody > a:hover , .cardbody > button:hover {
+  color: red;
+}
+.cardbody button{
+  margin: 0 5px 0  5px;
+  padding: 12px;
+  align-items: center;
+
+}
+
+.loadingdisp{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+margin: auto;
+margin-top: 120px;
+}

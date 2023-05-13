@@ -1,0 +1,59 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap'); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+.background {
+  background: #f6f9fc;
+  padding: 50px 0;
+}
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+.dflex {
+  display: flex;
+  justify-content:space-between;
+}
+.fflex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.dis{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+a{
+cursor: pointer;
+}
+img{
+  object-fit: cover;
+
+}
+.timeline{
+  color: blue;
+  background-color: yellow;
+}

@@ -1,0 +1,76 @@
+footer{
+    width: 100%;
+    height: 120px;
+}
+.dis .fleft{
+margin-top: 20px;
+margin-left: 80px;
+}
+.dis .fleft h5{
+font-weight: 200;
+font-size: 14px;
+
+}
+.dis .fright{
+    margin-left: 40px;
+   
+}
+.dis .fright ul{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.dis .fright ul li a{
+    /* display: flex; */
+    float: left;
+    /* color: brown; */
+margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+  
+
+}
+.dis .fright a{
+    /* color: aqua; */
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    opacity: 0.7;
+    font-size: 14px;
+    margin-left: 10px;
+   
+}
+
+  
+/* #--------- respomsive */
+@media screen and (max-width: 763px) {
+
+    *{
+      /* width: auto;
+      height: auto; */
+    }
+    
+      h1 , h2 , h3 , h4 , h5{
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        font-size: medium;
+      }
+      img{
+        width: fit-content;
+        height: fit-content;
+        object-fit: cover;
+      }
+      button{
+        /* width: fit-content;
+        height: fit-content;
+        width: auto; */
+      }
+      footer{
+        width: fit-content;
+        margin: auto;
+    
+      }
+    }

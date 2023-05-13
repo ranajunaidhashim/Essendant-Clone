@@ -1,0 +1,171 @@
+.Aimg img {
+  width: 100%;
+  height: 300px;
+
+}
+/* Centered text */
+.Acentered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Acentered h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 65px;
+  text-shadow: 2px 2px #3d3d3d;
+  /* width: 100%; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* justify-content: baseline; */
+  /* -webkit-text-stroke: medium; */
+}
+.Atext {
+  /* padding: 100px; */
+  margin: 100px;
+  left: 100px;
+}
+.Atext h4 {
+  color: #119dd4;
+  margin-top: 30px;
+  /* padding: 100px; */
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+.Atext h5 {
+  opacity: 0.8;
+  font-size: 19px;
+  /* padding: 70px; */
+
+  font-weight: 500;
+  margin-top: 50px;
+  text-align: center;
+}
+.dispg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 40px;
+  /* width: 80%;
+    align-content: center; */
+}
+.dispg .align {
+  padding: 10px;
+}
+.dispg .align img {
+  width: 100%;
+}
+.dispg .align h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 25px;
+  opacity: 0.9;
+}
+.dispg .align a {
+  text-decoration: underline;
+  color: #119dd4;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.Asection{
+  /* background-color: #dddddd50; */
+  background-image: linear-gradient(#dddddd50, #fff);
+
+  padding: 50px;
+ 
+}
+
+.Asection .Adis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+.Asection .Adis .Adistribute{
+  border: 0.5px solid rgba(156, 156, 156, 0.726);
+
+  margin: 5px;
+}
+.Asection .Adis .Acustomer{
+  border: 0.5px solid rgba(156, 156, 156, 0.726);
+  margin: 5px;
+
+}
+.Asection .Adis .Adistribute img{
+margin-left: 45%;
+margin-top: 20px;
+}
+.Asection .Adis .Acustomer img{
+  margin-left: 45%;
+  margin-top: 20px;
+}
+.Asection .Adis .Adistribute h3{
+    text-align: center;
+}
+.Asection .Adis .Acustomer h3{
+  text-align: center;
+}
+
+.Alist ul {
+margin-top: 50px;
+margin-bottom: 50px;
+
+}
+
+.Alist ul li {
+list-style: disc;
+margin-top: 5px;
+margin-left: 50px;
+}
+.Alist ul li h4{
+font-weight: 400;
+opacity: 0.8;
+font-size: 18px;
+/* margin-top: 5px; */
+}
+.AtextL{
+  color: #0f3460;
+/* font-weight: bolder; */
+font-size: 17px;
+margin-top: 40px;
+margin-bottom: 30px;
+text-align: center;
+/* -webkit-text-stroke-width: thin; */
+}
+.Adistribute h3{
+  font-size: 25px;
+text-align: center;
+font-weight: 600;
+opacity: 0.9;
+margin-top: 10px;
+
+}
+.Acustomer h3{
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  opacity: 0.9;
+  margin-top: 10px;
+  
+}
+.Aa a{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.Aa label{
+  color: #119dd4;
+}
+.Aline{
+  color: #0f3460;
+  height: 14px;
+  background-color: #0f3460;
+  /* width: 400px; */
+  text-align: center;
+  border-bottom: 3px solid #119dd4;
+  margin: 50px 50px 10px 50px;
+}
